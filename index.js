@@ -104,8 +104,16 @@ if(media >= 6){
 
 /* 7 -Crie um programa que digite o nome, idade, Curso e ano na tela um embaixo do outro , no seu html coloque um fundo e um titulo e o javascript deve ser externo. */
 
-// Colocando nome, idade, curso e ano
+/* // Colocando nome, idade, curso e ano
 document.write("Matheus <br>")
 document.write("18 anos <br>")
 document.write("Engenharia de Software <br>")
-document.write("Primeiro ano de curso")
+document.write("Primeiro ano de curso") */
+
+
+
+/* 8 -Crie  um  programa  em  Javascript  que troque  a  palavra  lugar  por  mundo  dafrase O  LUGAR  VIRA TECNOLOGIAe apresente na tela. */
+
+// Criando a variável e mudando seu conteúdo
+let troca = "O lugar vira tecnologia"
+document.write(troca.replace("lugar", "mundo")) 
