@@ -114,6 +114,19 @@ document.write("Primeiro ano de curso") */
 
 /* 8 -Crie  um  programa  em  Javascript  que troque  a  palavra  lugar  por  mundo  dafrase O  LUGAR  VIRA TECNOLOGIAe apresente na tela. */
 
-// Criando a variável e mudando seu conteúdo
+/* // Criando a variável e mudando seu conteúdo
 let troca = "O lugar vira tecnologia"
-document.write(troca.replace("lugar", "mundo")) 
+document.write(troca.replace("lugar", "mundo")) */
+
+
+
+/* 9 -Crie um programa que declare a variável como String depois converta para float e em seguida apresente apenas dois numeros depois da virgula */
+
+// Declarando a variável como string
+let numString = "124.3656776"
+
+// Transfromando em float
+numFloat = parseFloat(numString)
+
+// Apresentando somente dois números depois da vírgula
+document.write(numFloat.toFixed(2))
