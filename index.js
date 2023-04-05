@@ -122,11 +122,11 @@ document.write(troca.replace("lugar", "mundo")) */
 
 /* 9 -Crie um programa que declare a variável como String depois converta para float e em seguida apresente apenas dois numeros depois da virgula */
 
-// Declarando a variável como string
+/* // Declarando a variável como string
 let numString = "124.3656776"
 
 // Transfromando em float
 numFloat = parseFloat(numString)
 
 // Apresentando somente dois números depois da vírgula
-document.write(numFloat.toFixed(2))
+document.write(numFloat.toFixed(2)) */
