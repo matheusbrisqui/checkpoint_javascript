@@ -82,7 +82,7 @@ if(usuario_pedido == "admin" && senha_requisitada == "1234"){
 
 /* 6 -Vamoscriar um programa que calculea média de 7notas e exibauma mensagem indicando se o aluno foi aprovado ou reprovado. Considere que a média mínima para aprovação é 6.Exemplifique e demonstre a saída!*/
 
-// Declarando as variáveis das notas e media
+/* // Declarando as variáveis das notas e media
 nota1 = parseFloat(prompt("Digite sua primeira nota: "))
 nota2 = parseFloat(prompt("Digite sua segunda nota: "))
 nota3 = parseFloat(prompt("Digite sua terceira nota: "))
@@ -98,4 +98,14 @@ if(media >= 6){
     document.write("Você foi aprovado!")
 }else{
     document.write("Você foi reprovado")
-} 
+} */
+
+
+
+/* 7 -Crie um programa que digite o nome, idade, Curso e ano na tela um embaixo do outro , no seu html coloque um fundo e um titulo e o javascript deve ser externo. */
+
+// Colocando nome, idade, curso e ano
+document.write("Matheus <br>")
+document.write("18 anos <br>")
+document.write("Engenharia de Software <br>")
+document.write("Primeiro ano de curso")
