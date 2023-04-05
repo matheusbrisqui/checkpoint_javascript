@@ -67,7 +67,7 @@ if(idade <= 12){
 
 /* 5 -Crieum programa que recebaum nome de usuário e uma senha e verifiquese eles correspondem aos dados de um usuário cadastrado. Considere que o usuário cadastrado possui nome de usuário "admin" e senha "1234". O programa deve exibir uma mensagem indicando se o login foi realizado com sucesso ou se houve falha de autenticação.Exemplifique e demonstre a saída! */
 
-// Declarando usuário admin e sua senha 
+/* // Declarando usuário admin e sua senha 
 let usuario_pedido = prompt("Digite seu user: ", "Escreva aqui")
 let senha_requisitada = prompt(" Digite sua senha", "Escreva aqui")
 
@@ -76,4 +76,26 @@ if(usuario_pedido == "admin" && senha_requisitada == "1234"){
     document.write("Login realizado com sucesso")
 }else{
     document.write("Falha de autenticação.")
+} */
+
+
+
+/* 6 -Vamoscriar um programa que calculea média de 7notas e exibauma mensagem indicando se o aluno foi aprovado ou reprovado. Considere que a média mínima para aprovação é 6.Exemplifique e demonstre a saída!*/
+
+// Declarando as variáveis das notas e media
+nota1 = parseFloat(prompt("Digite sua primeira nota: "))
+nota2 = parseFloat(prompt("Digite sua segunda nota: "))
+nota3 = parseFloat(prompt("Digite sua terceira nota: "))
+nota4 = parseFloat(prompt("Digite sua qurta nota: "))
+nota5 = parseFloat(prompt("Digite sua quinta nota: "))
+nota6 = parseFloat(prompt("Digite sua sexta nota: "))
+nota7 = parseFloat(prompt("Digite sua sétima nota: "))
+
+media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7
+
+// Retornando ao usuário a média final e se foi aprovado ou não
+if(media >= 6){
+    document.write("Você foi aprovado!")
+}else{
+    document.write("Você foi reprovado")
 } 
