@@ -49,7 +49,7 @@ if(imc < 18.5){
 
 /* 4 -Faça um programa que recebaa idade de uma pessoa e exibauma mensagem indicando em qual faixa etária ela se encontra: criança (até 12 anos), adolescente (entre 13 e 18 anos), adulto (entre 19 e 60 anos) ou idoso (mais de 60 anos). Exemplifique e demonstre a saída!*/
 
-// Declarando e pedindo idade da pessoa
+/* // Declarando e pedindo idade da pessoa
 let idade = parseInt(prompt("Digite sua idade: "))
 
 // Dizendo ao usuário qual faixa ele se encontra
@@ -61,4 +61,19 @@ if(idade <= 12){
     document.write("Você é um adulto.")
 }else{
     document.write("Você é um idoso.")
-}
+} */
+
+
+
+/* 5 -Crieum programa que recebaum nome de usuário e uma senha e verifiquese eles correspondem aos dados de um usuário cadastrado. Considere que o usuário cadastrado possui nome de usuário "admin" e senha "1234". O programa deve exibir uma mensagem indicando se o login foi realizado com sucesso ou se houve falha de autenticação.Exemplifique e demonstre a saída! */
+
+// Declarando usuário admin e sua senha 
+let usuario_pedido = prompt("Digite seu user: ", "Escreva aqui")
+let senha_requisitada = prompt(" Digite sua senha", "Escreva aqui")
+
+// Checando se o usuário será cadastrado ou não
+if(usuario_pedido == "admin" && senha_requisitada == "1234"){
+    document.write("Login realizado com sucesso")
+}else{
+    document.write("Falha de autenticação.")
+} 
